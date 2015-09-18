@@ -5,7 +5,7 @@ module.exports = function removeHtmlExtension(filePath) {
     throw new TypeError('remove-html-extension expected a string')
   }
 
-  htmlExtensions = ['html', 'html']
+  var htmlExtensions = ['html', 'htm']
   var regex = new RegExp('\\.(' + htmlExtensions.join('|') + ')$', 'i')
   return filePath.replace(regex, '')
 }
