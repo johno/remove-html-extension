@@ -16,7 +16,11 @@
     "url": "https://github.com/johnotander/remove-html-extension.git"
   },
   "keywords": [
-
+    "html",
+    "htm",
+    "extension",
+    "ext",
+    "remove"
   ],
   "license": "MIT",
   "bugs": {
