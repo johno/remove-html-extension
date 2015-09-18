@@ -1,0 +1,30 @@
+{
+  "name": "remove-html-extension",
+  "description": "Remove an html extension from a string",
+  "author": "John Otander",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "jshint": "jshint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/remove-html-extension.git"
+  },
+  "keywords": [
+
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnotander/remove-html-extension/issues"
+  },
+  "homepage": "https://github.com/johnotander/remove-html-extension",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
